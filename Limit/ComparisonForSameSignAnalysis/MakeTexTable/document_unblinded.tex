@@ -1,0 +1,43 @@
+\documentclass[a4paper,notitlepage]{article} 
+\RequirePackage{geometry}
+\geometry{
+  a4paper,%                                                                                                                       
+  textwidth=20cm,%                                                                                                                
+  textheight=23.2cm,%                                                                                                             
+  marginparsep=7pt,%                                                                                                              
+  marginparwidth=2.5cm%                                                                                                           
+}
+\usepackage{rotating}
+\usepackage{comment}
+
+\begin{document}
+ 
+\begin{table}
+\begin{center}
+\caption{Limits for sgluon (total cpu time=3127.67 sec). Following parameters have been used: No pseudo exp.=100000, interpolation/extrapolation=mclimit, stat constraint p.d.f=normal.}
+\begin{tabular}{ | c | c | c | c | c | c | c | c |}
+\hline
+  & 350 & 400 & 500 & 600 & 800 & 1000 & 1250 \\ \hline
+-2$\sigma$ &0.00202381 & 0.00318938 & 0.00911703 & 0.0230071 & 0.155279 & 1.07703 & 11.6229 \\ \hline 
+-1$\sigma$ &0.0027051 & 0.00435354 & 0.0116909 & 0.0270448 & 0.187374 & 1.35832 & 14.074 \\ \hline 
+median &0.00391719 & 0.00622209 & 0.0163883 & 0.037202 & 0.256197 & 1.8401 & 19.1834 \\ \hline 
++1$\sigma$ &0.00599047 & 0.00939849 & 0.024126 & 0.0542086 & 0.374204 & 2.70991 & 28.4664 \\ \hline 
++2$\sigma$ &0.00914218 & 0.0141888 & 0.0358627 & 0.0797242 & 0.546242 & 3.99877 & 42.4707 \\ \hline 
+observed &0.0109633 & 0.0184107 & 0.0531872 & 0.125458 & 0.888996 & 6.61188 & 72.4886 \\ \hline 
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+\clearpage
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.42]{figs/Sgluon800_nbMu1e3_nbExp1e4/graphCoverage.pdf}
+\includegraphics[scale = 0.42]{figs/combi_Sgluon1000/graphCoverage.pdf}
+\caption{Coverage vs $\mu$ for sgluon (800 GeV on the left, 1000 GeV on the right).}
+\end{center}
+\end{figure} 
+
+\end{document}

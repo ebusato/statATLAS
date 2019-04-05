@@ -1,0 +1,31 @@
+#!/bin/bash
+
+if [[ -n "${ROOTSYS+1}" ]]; then
+  echo "Using ROOT installed in $ROOTSYS"
+else
+  echo "ERROR ! ROOT is not defined..."
+  exit 1
+fi
+
+rm -f */*.so
+rm -f */*_C.d
+root -l -b -q Compile.C
+
+rm -f setup.sh
+cat > setup.sh <<EOF
+if [[ -n "\${LD_LIBRARY_PATH+1}" ]]; then
+  export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:${PWD}
+else
+  export LD_LIBRARY_PATH=${PWD}
+fi
+EOF
+
+rm -f setup.csh
+cat > setup.csh <<EOF
+if ( \$?LD_LIBRARY_PATH == 0 ) then
+  setenv LD_LIBRARY_PATH ${PWD}
+else
+  setenv LD_LIBRARY_PATH \${LD_LIBRARY_PATH}:${PWD}
+endif
+EOF
+

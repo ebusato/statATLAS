@@ -1,0 +1,44 @@
+#include "AtlasStyle.C"
+
+void SetStyle()
+{
+   TStyle* atlasStyle = AtlasStyle();
+   gROOT->SetStyle("ATLAS");
+   gROOT->ForceStyle();
+}
+
+void runExclusionPlot(const std::string file1, const std::string file2="", const std::string file3="")
+{
+  SetStyle();
+
+  gSystem->Load("ExclusionPlot_C");
+
+  LimitBrasilPlot limitBrasil1("OpTHyLiC",TheoXsec::RPPFullStat);
+  limitBrasil1.readFile(file1);
+  limitBrasil1.print();
+  limitBrasil1.makePlot();
+  limitBrasil1.plotTheoGraph(true);
+
+  TString file2T(file2.c_str());
+  if(file2!="" && !file2T.Contains("bayesian")) {
+    LimitBrasilPlot limitBrasil2("OTH2",TheoXsec::RPPFullStat);
+    limitBrasil2.readFile(file2);
+    limitBrasil2.makePlot(true);
+    limitBrasil2.plotTheoGraph(true);
+  }
+  else if(file2!="" && file2T.Contains("bayesian")) {
+    LimitVsMass limitVsMass("bayesian",Limit::obs,TheoXsec::RPPFullStat);
+    limitVsMass.readFile(file2);
+    limitVsMass.print();
+    limitVsMass.makePlot();
+  }
+
+  if(file3!="") {
+    LimitVsMass limitVsMass("bayesian",Limit::obs,TheoXsec::RPPFullStat);
+    limitVsMass.readFile(file3);
+    limitVsMass.print();
+    limitVsMass.makePlot();
+  }
+
+  gPad->SaveAs("outputPlot.pdf");
+}

@@ -1,0 +1,525 @@
+digraph simPdf{
+"simPdf" [ color=red, label="RooSimultaneous
+simPdf"];
+"model_mm" [ color=red, label="RooProdPdf
+model_mm"];
+"lumiConstraint" [ color=red, label="RooGaussian
+lumiConstraint"];
+"0.036" [ color=red, label="RooConstVar
+0.036"];
+"Lumi" [ color=blue, label="RooRealVar
+Lumi"];
+"nominalLumi" [ color=blue, label="RooRealVar
+nominalLumi"];
+"alpha_XS0Constraint" [ color=red, label="RooGaussian
+alpha_XS0Constraint"];
+"1" [ color=red, label="RooConstVar
+1"];
+"alpha_XS0" [ color=blue, label="RooRealVar
+alpha_XS0"];
+"nom_alpha_XS0" [ color=blue, label="RooRealVar
+nom_alpha_XS0"];
+"alpha_JVFSFConstraint" [ color=red, label="RooGaussian
+alpha_JVFSFConstraint"];
+"alpha_JVFSF" [ color=blue, label="RooRealVar
+alpha_JVFSF"];
+"nom_alpha_JVFSF" [ color=blue, label="RooRealVar
+nom_alpha_JVFSF"];
+"alpha_BTagSFbConstraint" [ color=red, label="RooGaussian
+alpha_BTagSFbConstraint"];
+"alpha_BTagSFb" [ color=blue, label="RooRealVar
+alpha_BTagSFb"];
+"nom_alpha_BTagSFb" [ color=blue, label="RooRealVar
+nom_alpha_BTagSFb"];
+"alpha_BTagSFcConstraint" [ color=red, label="RooGaussian
+alpha_BTagSFcConstraint"];
+"alpha_BTagSFc" [ color=blue, label="RooRealVar
+alpha_BTagSFc"];
+"nom_alpha_BTagSFc" [ color=blue, label="RooRealVar
+nom_alpha_BTagSFc"];
+"alpha_BTagSFlConstraint" [ color=red, label="RooGaussian
+alpha_BTagSFlConstraint"];
+"alpha_BTagSFl" [ color=blue, label="RooRealVar
+alpha_BTagSFl"];
+"nom_alpha_BTagSFl" [ color=blue, label="RooRealVar
+nom_alpha_BTagSFl"];
+"alpha_SSWidConstraint" [ color=red, label="RooGaussian
+alpha_SSWidConstraint"];
+"alpha_SSWid" [ color=blue, label="RooRealVar
+alpha_SSWid"];
+"nom_alpha_SSWid" [ color=blue, label="RooRealVar
+nom_alpha_SSWid"];
+"alpha_SSWrecConstraint" [ color=red, label="RooGaussian
+alpha_SSWrecConstraint"];
+"alpha_SSWrec" [ color=blue, label="RooRealVar
+alpha_SSWrec"];
+"nom_alpha_SSWrec" [ color=blue, label="RooRealVar
+nom_alpha_SSWrec"];
+"alpha_SSWtrgConstraint" [ color=red, label="RooGaussian
+alpha_SSWtrgConstraint"];
+"alpha_SSWtrg" [ color=blue, label="RooRealVar
+alpha_SSWtrg"];
+"nom_alpha_SSWtrg" [ color=blue, label="RooRealVar
+nom_alpha_SSWtrg"];
+"alpha_JERSFConstraint" [ color=red, label="RooGaussian
+alpha_JERSFConstraint"];
+"alpha_JERSF" [ color=blue, label="RooRealVar
+alpha_JERSF"];
+"nom_alpha_JERSF" [ color=blue, label="RooRealVar
+nom_alpha_JERSF"];
+"alpha_JEFFSFConstraint" [ color=red, label="RooGaussian
+alpha_JEFFSFConstraint"];
+"alpha_JEFFSF" [ color=blue, label="RooRealVar
+alpha_JEFFSF"];
+"nom_alpha_JEFFSF" [ color=blue, label="RooRealVar
+nom_alpha_JEFFSF"];
+"alpha_EESConstraint" [ color=red, label="RooGaussian
+alpha_EESConstraint"];
+"alpha_EES" [ color=blue, label="RooRealVar
+alpha_EES"];
+"nom_alpha_EES" [ color=blue, label="RooRealVar
+nom_alpha_EES"];
+"alpha_EERConstraint" [ color=red, label="RooGaussian
+alpha_EERConstraint"];
+"alpha_EER" [ color=blue, label="RooRealVar
+alpha_EER"];
+"nom_alpha_EER" [ color=blue, label="RooRealVar
+nom_alpha_EER"];
+"alpha_MuESConstraint" [ color=red, label="RooGaussian
+alpha_MuESConstraint"];
+"alpha_MuES" [ color=blue, label="RooRealVar
+alpha_MuES"];
+"nom_alpha_MuES" [ color=blue, label="RooRealVar
+nom_alpha_MuES"];
+"alpha_JESConstraint" [ color=red, label="RooGaussian
+alpha_JESConstraint"];
+"alpha_JES" [ color=blue, label="RooRealVar
+alpha_JES"];
+"nom_alpha_JES" [ color=blue, label="RooRealVar
+nom_alpha_JES"];
+"alpha_MuERIDConstraint" [ color=red, label="RooGaussian
+alpha_MuERIDConstraint"];
+"alpha_MuERID" [ color=blue, label="RooRealVar
+alpha_MuERID"];
+"nom_alpha_MuERID" [ color=blue, label="RooRealVar
+nom_alpha_MuERID"];
+"alpha_MuERMSConstraint" [ color=red, label="RooGaussian
+alpha_MuERMSConstraint"];
+"alpha_MuERMS" [ color=blue, label="RooRealVar
+alpha_MuERMS"];
+"nom_alpha_MuERMS" [ color=blue, label="RooRealVar
+nom_alpha_MuERMS"];
+"alpha_PDFConstraint" [ color=red, label="RooGaussian
+alpha_PDFConstraint"];
+"alpha_PDF" [ color=blue, label="RooRealVar
+alpha_PDF"];
+"nom_alpha_PDF" [ color=blue, label="RooRealVar
+nom_alpha_PDF"];
+"alpha_FakeConstraint" [ color=red, label="RooGaussian
+alpha_FakeConstraint"];
+"alpha_Fake" [ color=blue, label="RooRealVar
+alpha_Fake"];
+"nom_alpha_Fake" [ color=blue, label="RooRealVar
+nom_alpha_Fake"];
+"alpha_XS5Constraint" [ color=red, label="RooGaussian
+alpha_XS5Constraint"];
+"alpha_XS5" [ color=blue, label="RooRealVar
+alpha_XS5"];
+"nom_alpha_XS5" [ color=blue, label="RooRealVar
+nom_alpha_XS5"];
+"alpha_XS3Constraint" [ color=red, label="RooGaussian
+alpha_XS3Constraint"];
+"alpha_XS3" [ color=blue, label="RooRealVar
+alpha_XS3"];
+"nom_alpha_XS3" [ color=blue, label="RooRealVar
+nom_alpha_XS3"];
+"alpha_XS1Constraint" [ color=red, label="RooGaussian
+alpha_XS1Constraint"];
+"alpha_XS1" [ color=blue, label="RooRealVar
+alpha_XS1"];
+"nom_alpha_XS1" [ color=blue, label="RooRealVar
+nom_alpha_XS1"];
+"alpha_XS2Constraint" [ color=red, label="RooGaussian
+alpha_XS2Constraint"];
+"alpha_XS2" [ color=blue, label="RooRealVar
+alpha_XS2"];
+"nom_alpha_XS2" [ color=blue, label="RooRealVar
+nom_alpha_XS2"];
+"alpha_XS4Constraint" [ color=red, label="RooGaussian
+alpha_XS4Constraint"];
+"alpha_XS4" [ color=blue, label="RooRealVar
+alpha_XS4"];
+"nom_alpha_XS4" [ color=blue, label="RooRealVar
+nom_alpha_XS4"];
+"gamma_stat_mm_bin_0_constraint" [ color=red, label="RooPoisson
+gamma_stat_mm_bin_0_constraint"];
+"gamma_stat_mm_bin_0_poisMean" [ color=red, label="RooProduct
+gamma_stat_mm_bin_0_poisMean"];
+"gamma_stat_mm_bin_0_tau" [ color=red, label="RooConstVar
+gamma_stat_mm_bin_0_tau"];
+"gamma_stat_mm_bin_0" [ color=blue, label="RooRealVar
+gamma_stat_mm_bin_0"];
+"nom_gamma_stat_mm_bin_0" [ color=blue, label="RooRealVar
+nom_gamma_stat_mm_bin_0"];
+"mm_model" [ color=red, label="RooRealSumPdf
+mm_model"];
+"L_x_sig_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+L_x_sig_mm_overallSyst_x_StatUncert"];
+"sig_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+sig_mm_overallSyst_x_StatUncert"];
+"mc_stat_mm" [ color=red, label="ParamHistFunc
+mc_stat_mm"];
+"obs_x_mm" [ color=blue, label="RooRealVar
+obs_x_mm"];
+"sig_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+sig_mm_overallSyst_x_Exp"];
+"sig_mm_nominal" [ color=red, label="RooHistFunc
+sig_mm_nominal"];
+"sig_mm_overallNorm_x_sigma_epsilon" [ color=red, label="RooProduct
+sig_mm_overallNorm_x_sigma_epsilon"];
+"Strength" [ color=blue, label="RooRealVar
+Strength"];
+"sig_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+sig_mm_epsilon"];
+"binWidth_obs_x_mm_0" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_0"];
+"L_x_Fakes_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+L_x_Fakes_mm_overallSyst_x_Exp"];
+"Fakes_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+Fakes_mm_overallSyst_x_Exp"];
+"Fakes_mm_nominal" [ color=red, label="RooHistFunc
+Fakes_mm_nominal"];
+"Fakes_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+Fakes_mm_epsilon"];
+"binWidth_obs_x_mm_1" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_1"];
+"L_x_WZZZ_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+L_x_WZZZ_mm_overallSyst_x_StatUncert"];
+"WZZZ_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+WZZZ_mm_overallSyst_x_StatUncert"];
+"WZZZ_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+WZZZ_mm_overallSyst_x_Exp"];
+"WZZZ_mm_nominal" [ color=red, label="RooHistFunc
+WZZZ_mm_nominal"];
+"WZZZ_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+WZZZ_mm_epsilon"];
+"binWidth_obs_x_mm_2" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_2"];
+"L_x_WW_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+L_x_WW_mm_overallSyst_x_StatUncert"];
+"WW_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+WW_mm_overallSyst_x_StatUncert"];
+"WW_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+WW_mm_overallSyst_x_Exp"];
+"WW_mm_nominal" [ color=red, label="RooHistFunc
+WW_mm_nominal"];
+"WW_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+WW_mm_epsilon"];
+"binWidth_obs_x_mm_3" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_3"];
+"L_x_ttW_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+L_x_ttW_mm_overallSyst_x_StatUncert"];
+"ttW_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+ttW_mm_overallSyst_x_StatUncert"];
+"ttW_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+ttW_mm_overallSyst_x_Exp"];
+"ttW_mm_nominal" [ color=red, label="RooHistFunc
+ttW_mm_nominal"];
+"ttW_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+ttW_mm_epsilon"];
+"binWidth_obs_x_mm_4" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_4"];
+"L_x_ttZ_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+L_x_ttZ_mm_overallSyst_x_StatUncert"];
+"ttZ_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+ttZ_mm_overallSyst_x_StatUncert"];
+"ttZ_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+ttZ_mm_overallSyst_x_Exp"];
+"ttZ_mm_nominal" [ color=red, label="RooHistFunc
+ttZ_mm_nominal"];
+"ttZ_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+ttZ_mm_epsilon"];
+"binWidth_obs_x_mm_5" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_5"];
+"L_x_ttWW_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+L_x_ttWW_mm_overallSyst_x_StatUncert"];
+"ttWW_mm_overallSyst_x_StatUncert" [ color=red, label="RooProduct
+ttWW_mm_overallSyst_x_StatUncert"];
+"ttWW_mm_overallSyst_x_Exp" [ color=red, label="RooProduct
+ttWW_mm_overallSyst_x_Exp"];
+"ttWW_mm_nominal" [ color=red, label="RooHistFunc
+ttWW_mm_nominal"];
+"ttWW_mm_epsilon" [ color=red, label="RooStats::HistFactory::FlexibleInterpVar
+ttWW_mm_epsilon"];
+"binWidth_obs_x_mm_6" [ color=blue, label="RooRealVar
+binWidth_obs_x_mm_6"];
+"channelCat" [ color=blue, label="RooCategory
+channelCat"];
+"simPdf" -> "channelCat";
+"simPdf" -> "model_mm";
+"model_mm" -> "lumiConstraint";
+"model_mm" -> "gamma_stat_mm_bin_0_constraint";
+"model_mm" -> "alpha_XS0Constraint";
+"model_mm" -> "alpha_JVFSFConstraint";
+"model_mm" -> "alpha_XS5Constraint";
+"model_mm" -> "alpha_BTagSFbConstraint";
+"model_mm" -> "alpha_XS3Constraint";
+"model_mm" -> "alpha_BTagSFcConstraint";
+"model_mm" -> "alpha_XS1Constraint";
+"model_mm" -> "alpha_BTagSFlConstraint";
+"model_mm" -> "alpha_XS2Constraint";
+"model_mm" -> "alpha_SSWidConstraint";
+"model_mm" -> "alpha_XS4Constraint";
+"model_mm" -> "alpha_SSWrecConstraint";
+"model_mm" -> "alpha_SSWtrgConstraint";
+"model_mm" -> "alpha_JERSFConstraint";
+"model_mm" -> "alpha_JEFFSFConstraint";
+"model_mm" -> "alpha_EESConstraint";
+"model_mm" -> "alpha_EERConstraint";
+"model_mm" -> "alpha_MuESConstraint";
+"model_mm" -> "alpha_JESConstraint";
+"model_mm" -> "alpha_MuERIDConstraint";
+"model_mm" -> "alpha_MuERMSConstraint";
+"model_mm" -> "mm_model";
+"model_mm" -> "alpha_FakeConstraint";
+"model_mm" -> "alpha_PDFConstraint";
+"lumiConstraint" -> "nominalLumi";
+"lumiConstraint" -> "0.036";
+"lumiConstraint" -> "Lumi";
+"L_x_sig_mm_overallSyst_x_StatUncert" -> "Lumi";
+"L_x_sig_mm_overallSyst_x_StatUncert" -> "sig_mm_overallSyst_x_StatUncert";
+"sig_mm_overallSyst_x_StatUncert" -> "mc_stat_mm";
+"sig_mm_overallSyst_x_StatUncert" -> "sig_mm_overallSyst_x_Exp";
+"mc_stat_mm" -> "gamma_stat_mm_bin_0";
+"mc_stat_mm" -> "obs_x_mm";
+"gamma_stat_mm_bin_0_poisMean" -> "gamma_stat_mm_bin_0";
+"gamma_stat_mm_bin_0_poisMean" -> "gamma_stat_mm_bin_0_tau";
+"gamma_stat_mm_bin_0_constraint" -> "gamma_stat_mm_bin_0_poisMean";
+"gamma_stat_mm_bin_0_constraint" -> "nom_gamma_stat_mm_bin_0";
+"sig_mm_nominal" -> "obs_x_mm";
+"sig_mm_overallSyst_x_Exp" -> "sig_mm_nominal";
+"sig_mm_overallSyst_x_Exp" -> "sig_mm_overallNorm_x_sigma_epsilon";
+"sig_mm_overallNorm_x_sigma_epsilon" -> "Strength";
+"sig_mm_overallNorm_x_sigma_epsilon" -> "sig_mm_epsilon";
+"sig_mm_epsilon" -> "alpha_XS0";
+"sig_mm_epsilon" -> "alpha_JVFSF";
+"sig_mm_epsilon" -> "alpha_BTagSFb";
+"sig_mm_epsilon" -> "alpha_BTagSFc";
+"sig_mm_epsilon" -> "alpha_BTagSFl";
+"sig_mm_epsilon" -> "alpha_SSWid";
+"sig_mm_epsilon" -> "alpha_SSWrec";
+"sig_mm_epsilon" -> "alpha_SSWtrg";
+"sig_mm_epsilon" -> "alpha_JERSF";
+"sig_mm_epsilon" -> "alpha_JEFFSF";
+"sig_mm_epsilon" -> "alpha_EES";
+"sig_mm_epsilon" -> "alpha_EER";
+"sig_mm_epsilon" -> "alpha_MuES";
+"sig_mm_epsilon" -> "alpha_JES";
+"sig_mm_epsilon" -> "alpha_MuERID";
+"sig_mm_epsilon" -> "alpha_MuERMS";
+"sig_mm_epsilon" -> "alpha_PDF";
+"alpha_XS0Constraint" -> "alpha_XS0";
+"alpha_XS0Constraint" -> "1";
+"alpha_XS0Constraint" -> "nom_alpha_XS0";
+"alpha_JVFSFConstraint" -> "1";
+"alpha_JVFSFConstraint" -> "alpha_JVFSF";
+"alpha_JVFSFConstraint" -> "nom_alpha_JVFSF";
+"WZZZ_mm_epsilon" -> "alpha_JVFSF";
+"WZZZ_mm_epsilon" -> "alpha_XS5";
+"WZZZ_mm_epsilon" -> "alpha_BTagSFb";
+"WZZZ_mm_epsilon" -> "alpha_BTagSFc";
+"WZZZ_mm_epsilon" -> "alpha_BTagSFl";
+"WZZZ_mm_epsilon" -> "alpha_SSWid";
+"WZZZ_mm_epsilon" -> "alpha_SSWrec";
+"WZZZ_mm_epsilon" -> "alpha_SSWtrg";
+"WZZZ_mm_epsilon" -> "alpha_JERSF";
+"WZZZ_mm_epsilon" -> "alpha_JEFFSF";
+"WZZZ_mm_epsilon" -> "alpha_EES";
+"WZZZ_mm_epsilon" -> "alpha_EER";
+"WZZZ_mm_epsilon" -> "alpha_MuES";
+"WZZZ_mm_epsilon" -> "alpha_JES";
+"WZZZ_mm_epsilon" -> "alpha_MuERID";
+"WZZZ_mm_epsilon" -> "alpha_MuERMS";
+"alpha_XS5Constraint" -> "1";
+"alpha_XS5Constraint" -> "alpha_XS5";
+"alpha_XS5Constraint" -> "nom_alpha_XS5";
+"alpha_BTagSFbConstraint" -> "1";
+"alpha_BTagSFbConstraint" -> "alpha_BTagSFb";
+"alpha_BTagSFbConstraint" -> "nom_alpha_BTagSFb";
+"WW_mm_epsilon" -> "alpha_JVFSF";
+"WW_mm_epsilon" -> "alpha_BTagSFb";
+"WW_mm_epsilon" -> "alpha_XS3";
+"WW_mm_epsilon" -> "alpha_BTagSFc";
+"WW_mm_epsilon" -> "alpha_BTagSFl";
+"WW_mm_epsilon" -> "alpha_SSWid";
+"WW_mm_epsilon" -> "alpha_SSWrec";
+"WW_mm_epsilon" -> "alpha_SSWtrg";
+"WW_mm_epsilon" -> "alpha_JERSF";
+"WW_mm_epsilon" -> "alpha_JEFFSF";
+"WW_mm_epsilon" -> "alpha_EES";
+"WW_mm_epsilon" -> "alpha_EER";
+"WW_mm_epsilon" -> "alpha_MuES";
+"WW_mm_epsilon" -> "alpha_JES";
+"WW_mm_epsilon" -> "alpha_MuERID";
+"WW_mm_epsilon" -> "alpha_MuERMS";
+"alpha_XS3Constraint" -> "1";
+"alpha_XS3Constraint" -> "alpha_XS3";
+"alpha_XS3Constraint" -> "nom_alpha_XS3";
+"alpha_BTagSFcConstraint" -> "1";
+"alpha_BTagSFcConstraint" -> "alpha_BTagSFc";
+"alpha_BTagSFcConstraint" -> "nom_alpha_BTagSFc";
+"ttW_mm_epsilon" -> "alpha_JVFSF";
+"ttW_mm_epsilon" -> "alpha_BTagSFb";
+"ttW_mm_epsilon" -> "alpha_BTagSFc";
+"ttW_mm_epsilon" -> "alpha_XS1";
+"ttW_mm_epsilon" -> "alpha_BTagSFl";
+"ttW_mm_epsilon" -> "alpha_SSWid";
+"ttW_mm_epsilon" -> "alpha_SSWrec";
+"ttW_mm_epsilon" -> "alpha_SSWtrg";
+"ttW_mm_epsilon" -> "alpha_JERSF";
+"ttW_mm_epsilon" -> "alpha_JEFFSF";
+"ttW_mm_epsilon" -> "alpha_EES";
+"ttW_mm_epsilon" -> "alpha_EER";
+"ttW_mm_epsilon" -> "alpha_MuES";
+"ttW_mm_epsilon" -> "alpha_JES";
+"ttW_mm_epsilon" -> "alpha_MuERID";
+"ttW_mm_epsilon" -> "alpha_MuERMS";
+"alpha_XS1Constraint" -> "1";
+"alpha_XS1Constraint" -> "alpha_XS1";
+"alpha_XS1Constraint" -> "nom_alpha_XS1";
+"alpha_BTagSFlConstraint" -> "1";
+"alpha_BTagSFlConstraint" -> "alpha_BTagSFl";
+"alpha_BTagSFlConstraint" -> "nom_alpha_BTagSFl";
+"ttZ_mm_epsilon" -> "alpha_JVFSF";
+"ttZ_mm_epsilon" -> "alpha_BTagSFb";
+"ttZ_mm_epsilon" -> "alpha_BTagSFc";
+"ttZ_mm_epsilon" -> "alpha_BTagSFl";
+"ttZ_mm_epsilon" -> "alpha_XS2";
+"ttZ_mm_epsilon" -> "alpha_SSWid";
+"ttZ_mm_epsilon" -> "alpha_SSWrec";
+"ttZ_mm_epsilon" -> "alpha_SSWtrg";
+"ttZ_mm_epsilon" -> "alpha_JERSF";
+"ttZ_mm_epsilon" -> "alpha_JEFFSF";
+"ttZ_mm_epsilon" -> "alpha_EES";
+"ttZ_mm_epsilon" -> "alpha_EER";
+"ttZ_mm_epsilon" -> "alpha_MuES";
+"ttZ_mm_epsilon" -> "alpha_JES";
+"ttZ_mm_epsilon" -> "alpha_MuERID";
+"ttZ_mm_epsilon" -> "alpha_MuERMS";
+"alpha_XS2Constraint" -> "1";
+"alpha_XS2Constraint" -> "alpha_XS2";
+"alpha_XS2Constraint" -> "nom_alpha_XS2";
+"alpha_SSWidConstraint" -> "1";
+"alpha_SSWidConstraint" -> "alpha_SSWid";
+"alpha_SSWidConstraint" -> "nom_alpha_SSWid";
+"ttWW_mm_epsilon" -> "alpha_JVFSF";
+"ttWW_mm_epsilon" -> "alpha_BTagSFb";
+"ttWW_mm_epsilon" -> "alpha_BTagSFc";
+"ttWW_mm_epsilon" -> "alpha_BTagSFl";
+"ttWW_mm_epsilon" -> "alpha_SSWid";
+"ttWW_mm_epsilon" -> "alpha_XS4";
+"ttWW_mm_epsilon" -> "alpha_SSWrec";
+"ttWW_mm_epsilon" -> "alpha_SSWtrg";
+"ttWW_mm_epsilon" -> "alpha_JERSF";
+"ttWW_mm_epsilon" -> "alpha_JEFFSF";
+"ttWW_mm_epsilon" -> "alpha_EES";
+"ttWW_mm_epsilon" -> "alpha_EER";
+"ttWW_mm_epsilon" -> "alpha_MuES";
+"ttWW_mm_epsilon" -> "alpha_JES";
+"ttWW_mm_epsilon" -> "alpha_MuERID";
+"ttWW_mm_epsilon" -> "alpha_MuERMS";
+"alpha_XS4Constraint" -> "1";
+"alpha_XS4Constraint" -> "alpha_XS4";
+"alpha_XS4Constraint" -> "nom_alpha_XS4";
+"alpha_SSWrecConstraint" -> "1";
+"alpha_SSWrecConstraint" -> "alpha_SSWrec";
+"alpha_SSWrecConstraint" -> "nom_alpha_SSWrec";
+"alpha_SSWtrgConstraint" -> "1";
+"alpha_SSWtrgConstraint" -> "alpha_SSWtrg";
+"alpha_SSWtrgConstraint" -> "nom_alpha_SSWtrg";
+"alpha_JERSFConstraint" -> "1";
+"alpha_JERSFConstraint" -> "alpha_JERSF";
+"alpha_JERSFConstraint" -> "nom_alpha_JERSF";
+"alpha_JEFFSFConstraint" -> "1";
+"alpha_JEFFSFConstraint" -> "alpha_JEFFSF";
+"alpha_JEFFSFConstraint" -> "nom_alpha_JEFFSF";
+"alpha_EESConstraint" -> "1";
+"alpha_EESConstraint" -> "alpha_EES";
+"alpha_EESConstraint" -> "nom_alpha_EES";
+"alpha_EERConstraint" -> "1";
+"alpha_EERConstraint" -> "alpha_EER";
+"alpha_EERConstraint" -> "nom_alpha_EER";
+"alpha_MuESConstraint" -> "1";
+"alpha_MuESConstraint" -> "alpha_MuES";
+"alpha_MuESConstraint" -> "nom_alpha_MuES";
+"alpha_JESConstraint" -> "1";
+"alpha_JESConstraint" -> "alpha_JES";
+"alpha_JESConstraint" -> "nom_alpha_JES";
+"alpha_MuERIDConstraint" -> "1";
+"alpha_MuERIDConstraint" -> "alpha_MuERID";
+"alpha_MuERIDConstraint" -> "nom_alpha_MuERID";
+"alpha_MuERMSConstraint" -> "1";
+"alpha_MuERMSConstraint" -> "alpha_MuERMS";
+"alpha_MuERMSConstraint" -> "nom_alpha_MuERMS";
+"ttWW_mm_overallSyst_x_Exp" -> "ttWW_mm_epsilon";
+"ttWW_mm_overallSyst_x_Exp" -> "ttWW_mm_nominal";
+"ttWW_mm_nominal" -> "obs_x_mm";
+"ttWW_mm_overallSyst_x_StatUncert" -> "mc_stat_mm";
+"ttWW_mm_overallSyst_x_StatUncert" -> "ttWW_mm_overallSyst_x_Exp";
+"L_x_ttWW_mm_overallSyst_x_StatUncert" -> "Lumi";
+"L_x_ttWW_mm_overallSyst_x_StatUncert" -> "ttWW_mm_overallSyst_x_StatUncert";
+"mm_model" -> "L_x_sig_mm_overallSyst_x_StatUncert";
+"mm_model" -> "L_x_ttWW_mm_overallSyst_x_StatUncert";
+"mm_model" -> "binWidth_obs_x_mm_0";
+"mm_model" -> "L_x_Fakes_mm_overallSyst_x_Exp";
+"mm_model" -> "binWidth_obs_x_mm_1";
+"mm_model" -> "L_x_WZZZ_mm_overallSyst_x_StatUncert";
+"mm_model" -> "binWidth_obs_x_mm_2";
+"mm_model" -> "L_x_WW_mm_overallSyst_x_StatUncert";
+"mm_model" -> "binWidth_obs_x_mm_3";
+"mm_model" -> "L_x_ttW_mm_overallSyst_x_StatUncert";
+"mm_model" -> "binWidth_obs_x_mm_4";
+"mm_model" -> "L_x_ttZ_mm_overallSyst_x_StatUncert";
+"mm_model" -> "binWidth_obs_x_mm_5";
+"mm_model" -> "binWidth_obs_x_mm_6";
+"L_x_Fakes_mm_overallSyst_x_Exp" -> "1";
+"L_x_Fakes_mm_overallSyst_x_Exp" -> "Fakes_mm_overallSyst_x_Exp";
+"Fakes_mm_overallSyst_x_Exp" -> "Fakes_mm_nominal";
+"Fakes_mm_overallSyst_x_Exp" -> "Fakes_mm_epsilon";
+"Fakes_mm_nominal" -> "obs_x_mm";
+"Fakes_mm_epsilon" -> "alpha_Fake";
+"alpha_FakeConstraint" -> "1";
+"alpha_FakeConstraint" -> "alpha_Fake";
+"alpha_FakeConstraint" -> "nom_alpha_Fake";
+"L_x_WZZZ_mm_overallSyst_x_StatUncert" -> "Lumi";
+"L_x_WZZZ_mm_overallSyst_x_StatUncert" -> "WZZZ_mm_overallSyst_x_StatUncert";
+"WZZZ_mm_overallSyst_x_StatUncert" -> "mc_stat_mm";
+"WZZZ_mm_overallSyst_x_StatUncert" -> "WZZZ_mm_overallSyst_x_Exp";
+"WZZZ_mm_overallSyst_x_Exp" -> "WZZZ_mm_epsilon";
+"WZZZ_mm_overallSyst_x_Exp" -> "WZZZ_mm_nominal";
+"WZZZ_mm_nominal" -> "obs_x_mm";
+"L_x_WW_mm_overallSyst_x_StatUncert" -> "Lumi";
+"L_x_WW_mm_overallSyst_x_StatUncert" -> "WW_mm_overallSyst_x_StatUncert";
+"WW_mm_overallSyst_x_StatUncert" -> "mc_stat_mm";
+"WW_mm_overallSyst_x_StatUncert" -> "WW_mm_overallSyst_x_Exp";
+"WW_mm_overallSyst_x_Exp" -> "WW_mm_epsilon";
+"WW_mm_overallSyst_x_Exp" -> "WW_mm_nominal";
+"WW_mm_nominal" -> "obs_x_mm";
+"L_x_ttW_mm_overallSyst_x_StatUncert" -> "Lumi";
+"L_x_ttW_mm_overallSyst_x_StatUncert" -> "ttW_mm_overallSyst_x_StatUncert";
+"ttW_mm_overallSyst_x_StatUncert" -> "mc_stat_mm";
+"ttW_mm_overallSyst_x_StatUncert" -> "ttW_mm_overallSyst_x_Exp";
+"ttW_mm_overallSyst_x_Exp" -> "ttW_mm_epsilon";
+"ttW_mm_overallSyst_x_Exp" -> "ttW_mm_nominal";
+"ttW_mm_nominal" -> "obs_x_mm";
+"L_x_ttZ_mm_overallSyst_x_StatUncert" -> "Lumi";
+"L_x_ttZ_mm_overallSyst_x_StatUncert" -> "ttZ_mm_overallSyst_x_StatUncert";
+"ttZ_mm_overallSyst_x_StatUncert" -> "mc_stat_mm";
+"ttZ_mm_overallSyst_x_StatUncert" -> "ttZ_mm_overallSyst_x_Exp";
+"ttZ_mm_overallSyst_x_Exp" -> "ttZ_mm_epsilon";
+"ttZ_mm_overallSyst_x_Exp" -> "ttZ_mm_nominal";
+"ttZ_mm_nominal" -> "obs_x_mm";
+"alpha_PDFConstraint" -> "1";
+"alpha_PDFConstraint" -> "alpha_PDF";
+"alpha_PDFConstraint" -> "nom_alpha_PDF";
+}

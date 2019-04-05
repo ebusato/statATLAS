@@ -1,0 +1,104 @@
+
+# Sgluon 350 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon350_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# Sgluon 400 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon400_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# Sgluon 500 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon500_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# Sgluon 600 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon600_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# Sgluon 800 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon800_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# Sgluon 1000 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1000_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# Sgluon 1250 
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_Sgluon1250_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# RPP 600
+
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/600GeV/Opti_lowB_lowHt.txt > ../Files2UEDRPP_4nov2014/600GeV/Opti_lowB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/600GeV/Opti_highB_lowHt.txt > ../Files2UEDRPP_4nov2014/600GeV/Opti_highB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/600GeV/Opti_lowB_highHt_lowMET.txt > ../Files2UEDRPP_4nov2014/600GeV/Opti_lowB_highHt_lowMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/600GeV/Opti_lowB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/600GeV/Opti_lowB_highHt_highMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/600GeV/Opti_highB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/600GeV/Opti_highB_highHt_highMET_NOUNCERT.txt
+
+# RPP 800
+
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/800GeV/Opti_lowB_lowHt.txt > ../Files2UEDRPP_4nov2014/800GeV/Opti_lowB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/800GeV/Opti_highB_lowHt.txt > ../Files2UEDRPP_4nov2014/800GeV/Opti_highB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/800GeV/Opti_lowB_highHt_lowMET.txt > ../Files2UEDRPP_4nov2014/800GeV/Opti_lowB_highHt_lowMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/800GeV/Opti_lowB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/800GeV/Opti_lowB_highHt_highMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/800GeV/Opti_highB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/800GeV/Opti_highB_highHt_highMET_NOUNCERT.txt
+
+# RPP 1000
+
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1000GeV/Opti_lowB_lowHt.txt > ../Files2UEDRPP_4nov2014/1000GeV/Opti_lowB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1000GeV/Opti_highB_lowHt.txt > ../Files2UEDRPP_4nov2014/1000GeV/Opti_highB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1000GeV/Opti_lowB_highHt_lowMET.txt > ../Files2UEDRPP_4nov2014/1000GeV/Opti_lowB_highHt_lowMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1000GeV/Opti_lowB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/1000GeV/Opti_lowB_highHt_highMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1000GeV/Opti_highB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/1000GeV/Opti_highB_highHt_highMET_NOUNCERT.txt
+
+# RPP 1200
+
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1200GeV/Opti_lowB_lowHt.txt > ../Files2UEDRPP_4nov2014/1200GeV/Opti_lowB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1200GeV/Opti_highB_lowHt.txt > ../Files2UEDRPP_4nov2014/1200GeV/Opti_highB_lowHt_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1200GeV/Opti_lowB_highHt_lowMET.txt > ../Files2UEDRPP_4nov2014/1200GeV/Opti_lowB_highHt_lowMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1200GeV/Opti_lowB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/1200GeV/Opti_lowB_highHt_highMET_NOUNCERT.txt
+./RemoveUncertainties.awk ../Files2UEDRPP_4nov2014/1200GeV/Opti_highB_highHt_highMET.txt > ../Files2UEDRPP_4nov2014/1200GeV/Opti_highB_highHt_highMET_NOUNCERT.txt
+
+# CI
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-CI_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat
+
+# SM
+
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat0_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat0_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat1_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat1_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat2_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat2_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat3_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat3_alladded_Yield_NOUNCERT.dat
+#./RemoveUncertainties.awk Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat4_alladded_Yield.dat > Files_10April2014/DAT/CH_4tops-SM_alladded_STD_END_SELECTION_Cat4_alladded_Yield_NOUNCERT.dat

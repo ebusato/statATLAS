@@ -1,0 +1,103 @@
+\documentclass[a4paper,notitlepage]{article} 
+\RequirePackage{geometry}
+\geometry{
+  a4paper,%                                                                                                                       
+  textwidth=20cm,%                                                                                                                
+  textheight=23.2cm,%                                                                                                             
+  marginparsep=7pt,%                                                                                                              
+  marginparwidth=2.5cm%                                                                                                           
+}
+\usepackage{rotating}
+\usepackage{comment}
+\usepackage[margin=3cm]{caption}
+
+\begin{document}
+  
+\section{Effect of uncertainties on 2UED/RPP limits}
+
+In this section all plots done with mclimit for interp/extrap and normal for stat. constraint.
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/outputPlot_mclimit_normal_DEFAULTVsNOUNCERT.pdf}
+\caption{Limit vs mass for 2UED/RPP signal. Usual colors: all uncertainties (final limits), Grey: no uncertainties (neither syst. nor stat.).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/outputPlot_mclimit_normal_DEFAULTVsNOUNCERTBUTFAKES.pdf}
+\caption{Limit vs mass for 2UED/RPP signal. Usual colors: all uncertainties (final limits), Grey: only fakes uncertainties (syst. and stat.).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/outputPlot_mclimit_normal_NOUNCERTVsNOUNCERTBUTFAKES.pdf}
+\caption{Limit vs mass for 2UED/RPP signal. Usual colors: no uncertainties (neither syst. nor stat.), Grey: only fakes uncertainties (syst. and stat.).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/observationPValue_mclimit_normal.pdf}
+\caption{Observation significance for 2UED/RPP signal with all uncertainties (final limits).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/observationPValue_mclimit_normal_NOUNCERT.pdf}
+\caption{Observation significance for 2UED/RPP signal with no uncertainties (neither syst. nor stat.).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/observationPValue_mclimit_normal_NOUNCERTBUTFAKES.pdf}
+\caption{Observation significance for 2UED/RPP signal with only fakes uncertainties (syst. and stat.).}
+\end{center}
+\end{figure} 
+
+\clearpage
+
+\section{Effect of interpolation/extrapolation and stat. constraint}
+
+In this section all uncertainties (syst. and stat.) are included.
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/outputPlot_mclimit_normal_Vs_mclimit_logN.pdf}
+\caption{Limit vs mass for 2UED/RPP signal. Usual colors: mclimit (for interp/extrap) and normal (for stat. constraint), Grey: mclimit (for interp/extrap) and log-normal (for stat. constraint).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.6]{figures_2UEDRPP_4nov2014/outputPlot_mclimit_normal_Vs_polyexpo_logN.pdf}
+\caption{Limit vs mass for 2UED/RPP signal. Usual colors: mclimit (for interp/extrap) and normal (for stat. constraint), Grey: poly+expo (for interp/extrap) and log-normal (for stat. constraint).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.4]{figures_2UEDRPP_4nov2014/observationPValue_mclimit_normal.pdf}
+\caption{Observation significance for 2UED/RPP signal with mclimit (for interp/extrap) and normal (for stat. constraint).}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.4]{figures_2UEDRPP_4nov2014/observationPValue_mclimit_logN.pdf}
+\caption{Observation significance for 2UED/RPP signal with mclimit (for interp/extrap) and log-normal (for stat. constraint)}
+\end{center}
+\end{figure} 
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[scale = 0.4]{figures_2UEDRPP_4nov2014/observationPValue_polyexpo_logN.pdf}
+\caption{Observation significance for 2UED/RPP signal with poly+expo (for interp/extrap) and log-normal (for stat. constraint)}
+\end{center}
+\end{figure} 
+
+\end{document}
