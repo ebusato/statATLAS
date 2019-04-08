@@ -480,7 +480,8 @@ void LimitBrasilPlot::readFile(const std::string fileName)
     }
     else { // reading 2nd, 3rd, ... lines
       for (int i=1; i<arr->GetEntries(); ++i) {
-	TString entry = ((TObjString*)arr->At(i))->GetString().ReplaceAll(" ","");
+	TString tempString = ((TObjString*)arr->At(i))->GetString();
+	TString entry = tempString.ReplaceAll(" ","");
 	//cout << "entry=" << entry << endl;
 	double val=0;
 	istringstream is(entry.Data());
@@ -876,7 +877,8 @@ void LimitVsMass::readFile(const std::string fileName)
     }
     else { // reading 2nd line
       for (int i=1; i<arr->GetEntries(); ++i) {
-	TString entry = ((TObjString*)arr->At(i))->GetString().ReplaceAll(" ","");
+	TString tempString = ((TObjString*)arr->At(i))->GetString();
+	TString entry = tempString.ReplaceAll(" ","");
 	//cout << "entry=" << entry << endl;
 	double val=0;
 	istringstream is(entry.Data());
